@@ -9,7 +9,7 @@ from common.tool import get_project_path, sep
 class GetConf:
     def __init__(self):
         # with open("D:\\PycharmProjects\\python_auro_request\\auto_test\config\\environment.yaml", "r", encoding="utf-8)") as file:
-        #     a = file.read()
+        #    a = file.read()
         #  print(a)
         # with open("D:\\PycharmProjects\\python_auro_request\\auto_test\\config\\environment.yaml", "r",
         #           encoding="utf-8") as env_file:
