@@ -10,7 +10,7 @@ class GetConf:
     def __init__(self):
         # with open("D:\\PycharmProjects\\python_auro_request\\auto_test\config\\environment.yaml", "r", encoding="utf-8)") as file:
         #     a = file.read()
-        #     print(a)
+        #  print(a)
         # with open("D:\\PycharmProjects\\python_auro_request\\auto_test\\config\\environment.yaml", "r",
         #           encoding="utf-8") as env_file:
         with open(get_project_path() + sep(["config", "environment.yaml"], True), "r", encoding="utf-8") as env_file:
