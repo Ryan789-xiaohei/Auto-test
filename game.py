@@ -60,7 +60,7 @@ class HouYi(Game):
     def __init__(self, defense):
         super().__init__(800, 200,)
         self.defense=defense
-    def houyi_fight(self, enemy_power,enemy_hp ):
+    def houyi_fight(self, enemy_hp,enemy_power ):
         final_hp = self.hp+self.defense - enemy_power
         enemy_final_hp = enemy_hp - self.power
         if final_hp > enemy_final_hp:
@@ -69,5 +69,5 @@ class HouYi(Game):
             print("敌人赢了")
         else:
             print("平局")
-game1=HouYi(100)
-game1.houyi_fight(1000,500)
+# game1=HouYi(100)
+# game1.houyi_fight(1000,500)
